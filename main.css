@@ -1,0 +1,287 @@
+body {
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.navigationbar {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navdiv {
+    padding: 10px;
+    margin: 20px;
+    font-family: cursive;
+    font-size: 30px;
+    color: hotpink;
+    font-weight: 1000;
+    
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: hotpink;
+    float: right;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: lightpink;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.first-paragraph {
+    text-align: center;
+     color: whitesmoke;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+
+.figure-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: hotpink;
+    font-family: cursive;
+}
+
+
+img {
+    border: 5px solid hotpink;
+    border-radius: 10px;
+}
+
+.filter {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid lightpink;
+}
+
+hr {
+    border: 1px solid lightpink;
+}
+
+.group2 {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid lightpink;
+}
+
+.intro {
+    flex: 1;
+    color: whitesmoke;
+}
+
+.about {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.text {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+ol {
+    list-style: none;
+}
+
+
+.creators {
+    
+    font-family: monospace;
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+
+iframe {
+    border: pink solid 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+}
+
+.filter2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid lightpink;
+    color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.youtubers {
+    text-align: center;
+}
+
+fieldset {
+    border: 5px solid hotpink;
+    background-color: pink;
+    padding: 20px;
+    margin: 20px;
+}
+legend, label {
+    padding-top: 10px;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+    
+}
+input, button{
+    border-radius: 10px;
+    border-color: lightcoral;
+    padding: 8px;
+    color: lightpink;
+    background-color: black;
+}
+button:hover {
+    background-color: hotpink;
+    color: black;
+    border-color: hotpink;
+}
+form {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+    background-color: lightpink;
+    font-size: 20px;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 45px;
+    border: hotpink solid 2px;
+    height: 550px;
+    width: 600px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.myaddress a {
+    text-decoration: none;
+    color: black;
+}
+.myaddress a:hover {
+    color: hotpink;
+}
+.bgadd {
+    background-color: beige;
+    margin: 45px;
+    padding: 10px;
+    border: black solid 5px;
+    border-radius: 50px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    color: hotpink;
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+    border: rgb(230, 155, 192) solid 3px;
+    border-radius: 20px;
+
+
+}
+.Summary {
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    color: hotpink;
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+    border: rgb(230, 155, 192) solid 3px;
+    border-radius: 20px;
+    height: 150px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table {
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    color: hotpink;
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+    border: rgb(230, 155, 192) solid 3px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+caption {
+    text-align: center;
+    font-size: 20px;
+    color: hotpink;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    border: rgb(230, 155, 192) solid 3px;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.names {
+    text-align: center;
+    font-size: 20px;
+    color: hotpink;
+    background-color: white;
+    border: rgb(230, 155, 192) solid 3px;
+    border-radius: 20px;
+    font-family: monospace;
+    margin: 10px;
+    padding-bottom: 10px;
+    height: 15px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
